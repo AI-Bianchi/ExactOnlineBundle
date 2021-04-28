@@ -32,7 +32,7 @@
     }],
     "extra" : {
     "branch-alias" : {
-            "master" : "sf4.4"
+            "master" : "sf4.4-dev"
         }
     }
 }
