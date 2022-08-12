@@ -69,7 +69,7 @@ config/package/exact_online.yaml
         clientSecret: YOURSECRET
 
 <h3>STEP 4</h3>
-You need to update your database:
+You should to update your database:
 
 	php app/console doctrine:schema:update --force
 
@@ -89,7 +89,7 @@ In your controller :
 
 Next go to http:// YOUR URL.com/ExactRequest
 Your authentication login will be required, this session will expire after 10 minutes
-If you want to keep this session active, you need to replace function init() by refreshToken()
+If you want to keep this session active, you should to replace function init() by refreshToken()
 
 <h1>Usage</h1>
 
